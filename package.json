@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "debounce": "^1.0.0",
-    "react-native": "^0.11.4",
+    "react-native": "exponentjs/react-native#2015-10-08-exp",
     "react-native-blur": "^0.7.1",
     "react-native-navbar": "^0.8.2",
     "react-native-scrollable-tab-view": "brentvatne/react-native-scrollable-tab-view#master",

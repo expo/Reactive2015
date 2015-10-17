@@ -38,9 +38,6 @@ const styles = {
   },
 };
 
-const checked = require('image!ios7-checkmark');
-const unchecked = require('image!ios7-checkmark-outline');
-
 module.exports = class MultiSelectListItem extends Component {
   constructor(props) {
     super(props);
@@ -62,7 +59,9 @@ module.exports = class MultiSelectListItem extends Component {
   }
 
   render() {
-    const stateIcon = this.state.checked ? checked : unchecked;
+    const stateIcon = this.state.checked ?
+      {uri: 'http://imgur.com/jfLDrZS.png'} :
+      {uri: 'http://imgur.com/D4fjXR9.png'};
 
     return (
       <TouchableOpacity

@@ -41,7 +41,7 @@ class ScheduleScreen extends Component {
           <TouchableOpacity
             onPress={this.openFiltersScreen}
             style={theme.nextBtnContainer}>
-              <Image source={require('image!ios7-settings-strong')} style={theme.btn}/>
+              <Image source={{uri: 'http://i.imgur.com/1v4VkCC.png'}} style={theme.btn}/>
           </TouchableOpacity>
         </View>
         <ScrollableTabs edgeHitWidth={100} renderTabBar={() => <TabBar />}>

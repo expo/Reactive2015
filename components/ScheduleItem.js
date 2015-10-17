@@ -67,7 +67,7 @@ module.exports = class ScheduleItem extends Component {
           {speaker}
           <View style={{ flex: 1, flexDirection: 'row', marginTop: 5, }}>
             <Image
-              source={require('image!ios7-clock-outline')}
+              source={{uri: 'http://imgur.com/WjIIJrR.png'}}
               style={{ width: 18, height: 18, marginRight: 5, }}/>
             <Text style={styles.clock}>{this.props.time}</Text>
           </View>

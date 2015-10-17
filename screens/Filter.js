@@ -103,7 +103,7 @@ class FilterScreen extends Component {
             style={[theme.prevBtnContainer, { left: 0, }, ]}
             onPress={() => this.props.navigator.pop()}>
             <Image
-              source={require('image!ios7-arrow-back')}
+              source={{uri: 'http://i.imgur.com/PdPiNxx.png'}}
               style={[theme.btn, { width: 36, height: 36, }, ]}/>
           </TouchableOpacity>
         </View>
